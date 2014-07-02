@@ -1,0 +1,446 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css'>
+    
+    <script src='http://code.jquery.com/jquery-1.10.2.min.js' type='text/javascript'></script>
+    <script src='http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <table id = 'chart504b37cec' class = 'rChart datatables'></table>
+                                      <script>
+                                      jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+                                      "scientific-pre": function ( a ) {
+                                      return parseFloat(a);
+                                      },
+                                      
+                                      "scientific-asc": function ( a, b ) {
+                                      return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+                                      },
+                                      
+                                      "scientific-desc": function ( a, b ) {
+                                      return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+                                      }
+                                      } );
+                                      
+                                      </script>
+                                          
+    <script type="text/javascript" charset="utf-8">
+  var chartParamschart504b37cec = {
+ "dom": "chart504b37cec",
+"width":    800,
+"height":    400,
+"table": {
+ "aaData": [
+ [
+ [ "2.371e+03" ],
+[ "1.104e+03" ],
+[ "1.594e+03" ],
+[ "4.906e+02" ],
+"versicolor" 
+],
+[
+ [ "7.233e+02" ],
+[ "5.390e+02" ],
+[ "2.695e+02" ],
+[ "5.673e+01" ],
+"setosa" 
+],
+[
+ [ "1.336e+06" ],
+[ "6.149e+05" ],
+[ "1.187e+06" ],
+[ "3.817e+05" ],
+"virginica" 
+],
+[
+ [ "6.231e+09" ],
+[ "2.770e+09" ],
+[ "5.044e+09" ],
+[ "1.484e+09" ],
+"virginica" 
+],
+[
+ [ "1.821e+07" ],
+[ "1.146e+07" ],
+[ "5.057e+06" ],
+[ "1.349e+06" ],
+"setosa" 
+],
+[
+ [ "1.538e+09" ],
+[ "6.990e+08" ],
+[ "1.118e+09" ],
+[ "3.635e+08" ],
+"versicolor" 
+],
+[
+ [ "5.354e+05" ],
+[ "2.633e+05" ],
+[ "4.301e+05" ],
+[ "1.580e+05" ],
+"virginica" 
+],
+[
+ [ "4.023e+10" ],
+[ "1.913e+10" ],
+[ "3.100e+10" ],
+[ "9.233e+09" ],
+"versicolor" 
+],
+[
+ [ "1.631e+05" ],
+[ "9.059e+04" ],
+[ "1.359e+05" ],
+[ "4.530e+04" ],
+"versicolor" 
+],
+[
+ [ "2.308e+03" ],
+[ "1.007e+03" ],
+[ "1.553e+03" ],
+[ "4.197e+02" ],
+"versicolor" 
+],
+[
+ [ "4.043e+09" ],
+[ "2.475e+09" ],
+[ "1.155e+09" ],
+[ "1.650e+08" ],
+"setosa" 
+],
+[
+ [ "5.555e+02" ],
+[ "2.368e+02" ],
+[ "5.100e+02" ],
+[ "1.275e+02" ],
+"virginica" 
+],
+[
+ [ "1.005e+09" ],
+[ "7.308e+08" ],
+[ "2.969e+08" ],
+[ "4.568e+07" ],
+"setosa" 
+],
+[
+ [ "7.262e+08" ],
+[ "5.084e+08" ],
+[ "2.324e+08" ],
+[ "8.715e+07" ],
+"setosa" 
+],
+[
+ [ "1.492e+05" ],
+[ "7.340e+04" ],
+[ "1.125e+05" ],
+[ "3.425e+04" ],
+"versicolor" 
+],
+[
+ [ "3.431e+09" ],
+[ "1.542e+09" ],
+[ "2.685e+09" ],
+[ "1.044e+09" ],
+"virginica" 
+],
+[
+ [ "2.214e+04" ],
+[ "1.093e+04" ],
+[ "1.926e+04" ],
+[ "6.325e+03" ],
+"virginica" 
+],
+[
+ [ "1.121e+02" ],
+[ "8.129e+01" ],
+[ "3.296e+01" ],
+[ "8.788e+00" ],
+"setosa" 
+],
+[
+ [ "3.459e+08" ],
+[ "2.188e+08" ],
+[ "1.059e+08" ],
+[ "7.059e+06" ],
+"setosa" 
+],
+[
+ [ "6.138e+03" ],
+[ "2.840e+03" ],
+[ "4.031e+03" ],
+[ "1.282e+03" ],
+"versicolor" 
+],
+[
+ [ "1.957e+03" ],
+[ "1.048e+03" ],
+[ "1.433e+03" ],
+[ "4.543e+02" ],
+"versicolor" 
+],
+[
+ [ "3.118e+08" ],
+[ "1.370e+08" ],
+[ "2.173e+08" ],
+[ "6.141e+07" ],
+"versicolor" 
+],
+[
+ [ "2.341e+03" ],
+[ "1.633e+03" ],
+[ "5.989e+02" ],
+[ "5.445e+01" ],
+"setosa" 
+],
+[
+ [ "9.004e+02" ],
+[ "3.287e+02" ],
+[ "6.289e+02" ],
+[ "1.858e+02" ],
+"versicolor" 
+],
+[
+ [ "1.799e+03" ],
+[ "1.274e+03" ],
+[ "7.122e+02" ],
+[ "7.496e+01" ],
+"setosa" 
+],
+[
+ [ "1.852e+10" ],
+[ "1.369e+10" ],
+[ "5.636e+09" ],
+[ "1.208e+09" ],
+"setosa" 
+],
+[
+ [ "1.406e+10" ],
+[ "7.363e+09" ],
+[ "1.049e+10" ],
+[ "3.570e+09" ],
+"versicolor" 
+],
+[
+ [ "5.555e+01" ],
+[ "3.935e+01" ],
+[ "1.852e+01" ],
+[ "2.315e+00" ],
+"setosa" 
+],
+[
+ [ "1.071e+05" ],
+[ "6.920e+04" ],
+[ "3.571e+04" ],
+[ "4.464e+03" ],
+"setosa" 
+],
+[
+ [ "3.472e+04" ],
+[ "1.232e+04" ],
+[ "2.520e+04" ],
+[ "8.399e+03" ],
+"versicolor" 
+],
+[
+ [ "3.030e+05" ],
+[ "1.131e+05" ],
+[ "2.623e+05" ],
+[ "8.140e+04" ],
+"virginica" 
+],
+[
+ [ "1.025e+06" ],
+[ "4.772e+05" ],
+[ "7.246e+05" ],
+[ "1.767e+05" ],
+"versicolor" 
+],
+[
+ [ "5.762e+10" ],
+[ "2.113e+10" ],
+[ "4.802e+10" ],
+[ "1.441e+10" ],
+"virginica" 
+],
+[
+ [ "1.452e+03" ],
+[ "6.522e+02" ],
+[ "1.031e+03" ],
+[ "3.156e+02" ],
+"versicolor" 
+],
+[
+ [ "6.027e+06" ],
+[ "3.065e+06" ],
+[ "5.210e+06" ],
+[ "1.839e+06" ],
+"virginica" 
+],
+[
+ [ "4.059e+10" ],
+[ "2.568e+10" ],
+[ "1.243e+10" ],
+[ "1.657e+09" ],
+"setosa" 
+],
+[
+ [ "2.359e+07" ],
+[ "1.588e+07" ],
+[ "6.805e+06" ],
+[ "9.073e+05" ],
+"setosa" 
+],
+[
+ [ "2.521e+09" ],
+[ "1.714e+09" ],
+[ "8.068e+08" ],
+[ "2.017e+08" ],
+"setosa" 
+],
+[
+ [ "4.250e+06" ],
+[ "1.854e+06" ],
+[ "2.936e+06" ],
+[ "8.499e+05" ],
+"versicolor" 
+],
+[
+ [ "8.880e+04" ],
+[ "4.024e+04" ],
+[ "5.966e+04" ],
+[ "1.804e+04" ],
+"versicolor" 
+],
+[
+ [ "1.237e+09" ],
+[ "5.412e+08" ],
+[ "1.082e+09" ],
+[ "4.059e+08" ],
+"virginica" 
+],
+[
+ [ "6.350e+04" ],
+[ "2.328e+04" ],
+[ "4.233e+04" ],
+[ "1.058e+04" ],
+"versicolor" 
+],
+[
+ [ "1.895e+10" ],
+[ "1.300e+10" ],
+[ "5.201e+09" ],
+[ "7.430e+08" ],
+"setosa" 
+],
+[
+ [ "6.659e+04" ],
+[ "3.218e+04" ],
+[ "4.994e+04" ],
+[ "1.665e+04" ],
+"versicolor" 
+],
+[
+ [ "5.233e+10" ],
+[ "2.355e+10" ],
+[ "4.448e+10" ],
+[ "1.395e+10" ],
+"versicolor" 
+],
+[
+ [ "7.863e+08" ],
+[ "5.679e+08" ],
+[ "2.475e+08" ],
+[ "5.824e+07" ],
+"setosa" 
+],
+[
+ [ "1.252e+07" ],
+[ "7.882e+06" ],
+[ "3.941e+06" ],
+[ "4.636e+05" ],
+"setosa" 
+],
+[
+ [ "3.090e+03" ],
+[ "1.518e+03" ],
+[ "2.440e+03" ],
+[ "7.048e+02" ],
+"versicolor" 
+],
+[
+ [ "6.473e+06" ],
+[ "2.449e+06" ],
+[ "5.336e+06" ],
+[ "1.662e+06" ],
+"virginica" 
+],
+[
+ [ "3.994e+04" ],
+[ "2.038e+04" ],
+[ "3.668e+04" ],
+[ "1.386e+04" ],
+"virginica" 
+] 
+],
+"aoColumns": [
+ {
+ "sTitle": "Sepal.Length",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Sepal.Width",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Petal.Length",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Petal.Width",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Species" 
+} 
+] 
+},
+"id": "chart504b37cec" 
+}
+  $('#' + chartParamschart504b37cec.id).removeClass("rChart")
+
+  $(document).ready(function() {
+		drawDataTable(chartParamschart504b37cec)
+	});
+  function drawDataTable(chartParams){
+    var dTable = $('#' + chartParams.dom).dataTable(
+      chartParams.table
+    );
+    //first use rCharts width
+  	$('#'+chartParams.id+"_wrapper").css("width",chartParams.width)  
+		$('#'+chartParams.id+"_wrapper").css("width",chartParams.table.width)
+    
+    //then if specified change to table width
+    $('#'+chartParams.id+"_wrapper").css("margin-left", "auto");
+    $('#'+chartParams.id+"_wrapper").css("margin-right", "auto");
+		dTable.fnAdjustColumnSizing();
+  }
+		
+</script>
+    
+    <script></script>    
+  </body>
+</html>

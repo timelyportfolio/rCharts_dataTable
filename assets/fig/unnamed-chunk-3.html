@@ -1,0 +1,449 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css'>
+    
+    <script src='http://code.jquery.com/jquery-1.10.2.min.js' type='text/javascript'></script>
+    <script src='http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 200px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <table id = 'chart5043fc21e33' class = 'rChart datatables'></table>
+    <script>
+      jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+      "scientific-pre": function ( a ) {
+        return parseFloat(a);
+      },
+    
+      "scientific-asc": function ( a, b ) {
+        return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+      },
+    
+      "scientific-desc": function ( a, b ) {
+        return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+    }
+    } );
+    
+    </script>
+        
+    <script type="text/javascript" charset="utf-8">
+  var chartParamschart5043fc21e33 = {
+ "dom": "chart5043fc21e33",
+"width":    800,
+"height":    200,
+"table": {
+ "aaData": [
+ [
+ [ "6.582e+07" ],
+[ "4.476e+07" ],
+[ "2.106e+07" ],
+[ "5.265e+06" ],
+"setosa" 
+],
+[
+ [ "1.043e+03" ],
+[ "4.173e+02" ],
+[ "7.303e+02" ],
+[ "2.086e+02" ],
+"versicolor" 
+],
+[
+ [ "1.415e+07" ],
+[ "9.323e+06" ],
+[ "4.501e+06" ],
+[ "6.430e+05" ],
+"setosa" 
+],
+[
+ [ "1.171e+09" ],
+[ "6.134e+08" ],
+[ "8.736e+08" ],
+[ "2.974e+08" ],
+"versicolor" 
+],
+[
+ [ "3.047e+10" ],
+[ "2.120e+10" ],
+[ "9.274e+09" ],
+[ "1.325e+09" ],
+"setosa" 
+],
+[
+ [ "1.063e+06" ],
+[ "8.119e+05" ],
+[ "2.706e+05" ],
+[ "3.866e+04" ],
+"setosa" 
+],
+[
+ [ "7.309e+05" ],
+[ "3.455e+05" ],
+[ "5.847e+05" ],
+[ "1.595e+05" ],
+"versicolor" 
+],
+[
+ [ "3.437e+02" ],
+[ "2.247e+02" ],
+[ "9.252e+01" ],
+[ "1.322e+01" ],
+"setosa" 
+],
+[
+ [ "3.740e+07" ],
+[ "1.902e+07" ],
+[ "2.662e+07" ],
+[ "9.509e+06" ],
+"versicolor" 
+],
+[
+ [ "5.926e+04" ],
+[ "3.749e+04" ],
+[ "1.814e+04" ],
+[ "2.419e+03" ],
+"setosa" 
+],
+[
+ [ "6.333e+08" ],
+[ "2.516e+08" ],
+[ "5.466e+08" ],
+[ "1.562e+08" ],
+"virginica" 
+],
+[
+ [ "2.817e+05" ],
+[ "9.513e+04" ],
+[ "2.525e+05" ],
+[ "8.416e+04" ],
+"virginica" 
+],
+[
+ [ "1.125e+07" ],
+[ "7.574e+06" ],
+[ "3.246e+06" ],
+[ "4.328e+05" ],
+"setosa" 
+],
+[
+ [ "6.747e+03" ],
+[ "4.723e+03" ],
+[ "1.754e+03" ],
+[ "4.048e+02" ],
+"setosa" 
+],
+[
+ [ "6.910e+05" ],
+[ "3.525e+05" ],
+[ "6.346e+05" ],
+[ "2.397e+05" ],
+"virginica" 
+],
+[
+ [ "3.562e+04" ],
+[ "1.875e+04" ],
+[ "2.625e+04" ],
+[ "7.499e+03" ],
+"versicolor" 
+],
+[
+ [ "1.560e+09" ],
+[ "6.966e+08" ],
+[ "1.087e+09" ],
+[ "3.065e+08" ],
+"versicolor" 
+],
+[
+ [ "1.024e+05" ],
+[ "7.426e+04" ],
+[ "3.011e+04" ],
+[ "8.028e+03" ],
+"setosa" 
+],
+[
+ [ "6.128e+03" ],
+[ "2.962e+03" ],
+[ "4.596e+03" ],
+[ "1.532e+03" ],
+"versicolor" 
+],
+[
+ [ "3.139e+02" ],
+[ "1.326e+02" ],
+[ "2.608e+02" ],
+[ "9.284e+01" ],
+"virginica" 
+],
+[
+ [ "3.248e+08" ],
+[ "1.384e+08" ],
+[ "2.981e+08" ],
+[ "7.454e+07" ],
+"virginica" 
+],
+[
+ [ "4.355e+02" ],
+[ "2.142e+02" ],
+[ "3.284e+02" ],
+[ "9.996e+01" ],
+"versicolor" 
+],
+[
+ [ "6.291e+01" ],
+[ "4.392e+01" ],
+[ "1.780e+01" ],
+[ "2.374e+00" ],
+"setosa" 
+],
+[
+ [ "1.524e+09" ],
+[ "6.832e+08" ],
+[ "1.051e+09" ],
+[ "3.153e+08" ],
+"versicolor" 
+],
+[
+ [ "3.250e+05" ],
+[ "2.167e+05" ],
+[ "9.693e+04" ],
+[ "1.711e+04" ],
+"setosa" 
+],
+[
+ [ "3.072e+03" ],
+[ "2.404e+03" ],
+[ "6.679e+02" ],
+[ "1.336e+02" ],
+"setosa" 
+],
+[
+ [ "1.019e+02" ],
+[ "6.947e+01" ],
+[ "3.010e+01" ],
+[ "4.632e+00" ],
+"setosa" 
+],
+[
+ [ "4.996e+03" ],
+[ "2.710e+03" ],
+[ "4.065e+03" ],
+[ "1.524e+03" ],
+"versicolor" 
+],
+[
+ [ "2.738e+08" ],
+[ "1.274e+08" ],
+[ "1.935e+08" ],
+[ "4.720e+07" ],
+"versicolor" 
+],
+[
+ [ "1.727e+07" ],
+[ "1.185e+07" ],
+[ "4.741e+06" ],
+[ "6.772e+05" ],
+"setosa" 
+],
+[
+ [ "2.951e+05" ],
+[ "1.867e+05" ],
+[ "9.033e+04" ],
+[ "6.022e+03" ],
+"setosa" 
+],
+[
+ [ "9.840e+03" ],
+[ "7.085e+03" ],
+[ "2.755e+03" ],
+[ "3.936e+02" ],
+"setosa" 
+],
+[
+ [ "5.774e+04" ],
+[ "3.695e+04" ],
+[ "1.386e+04" ],
+[ "2.309e+03" ],
+"setosa" 
+],
+[
+ [ "1.393e+09" ],
+[ "6.291e+08" ],
+[ "1.078e+09" ],
+[ "4.044e+08" ],
+"virginica" 
+],
+[
+ [ "3.310e+03" ],
+[ "1.307e+03" ],
+[ "2.875e+03" ],
+[ "9.147e+02" ],
+"virginica" 
+],
+[
+ [ "1.456e+05" ],
+[ "8.251e+04" ],
+[ "1.092e+05" ],
+[ "3.883e+04" ],
+"versicolor" 
+],
+[
+ [ "3.137e+10" ],
+[ "1.222e+10" ],
+[ "2.485e+10" ],
+[ "9.371e+09" ],
+"virginica" 
+],
+[
+ [ "5.567e+09" ],
+[ "2.832e+09" ],
+[ "4.102e+09" ],
+[ "1.270e+09" ],
+"versicolor" 
+],
+[
+ [ "3.103e+08" ],
+[ "1.379e+08" ],
+[ "2.586e+08" ],
+[ "7.759e+07" ],
+"virginica" 
+],
+[
+ [ "5.937e+06" ],
+[ "2.159e+06" ],
+[ "5.166e+06" ],
+[ "1.542e+06" ],
+"virginica" 
+],
+[
+ [ "2.075e+06" ],
+[ "9.053e+05" ],
+[ "1.396e+06" ],
+[ "3.772e+05" ],
+"versicolor" 
+],
+[
+ [ "3.159e+05" ],
+[ "1.580e+05" ],
+[ "2.221e+05" ],
+[ "7.405e+04" ],
+"versicolor" 
+],
+[
+ [ "9.433e+02" ],
+[ "6.474e+02" ],
+[ "2.590e+02" ],
+[ "5.549e+01" ],
+"setosa" 
+],
+[
+ [ "6.353e+09" ],
+[ "3.121e+09" ],
+[ "4.570e+09" ],
+[ "1.449e+09" ],
+"versicolor" 
+],
+[
+ [ "1.779e+04" ],
+[ "8.005e+03" ],
+[ "1.512e+04" ],
+[ "4.744e+03" ],
+"versicolor" 
+],
+[
+ [ "2.566e+02" ],
+[ "1.311e+02" ],
+[ "7.412e+01" ],
+[ "1.710e+01" ],
+"setosa" 
+],
+[
+ [ "4.256e+05" ],
+[ "1.991e+05" ],
+[ "2.952e+05" ],
+[ "8.924e+04" ],
+"versicolor" 
+],
+[
+ [ "1.181e+05" ],
+[ "5.903e+04" ],
+[ "9.445e+04" ],
+[ "3.542e+04" ],
+"virginica" 
+],
+[
+ [ "2.727e+08" ],
+[ "1.225e+08" ],
+[ "2.016e+08" ],
+[ "9.091e+07" ],
+"virginica" 
+],
+[
+ [ "1.268e+03" ],
+[ "8.849e+02" ],
+[ "3.244e+02" ],
+[ "2.950e+01" ],
+"setosa" 
+] 
+],
+"aoColumns": [
+ {
+ "sTitle": "Sepal.Length",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Sepal.Width",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Petal.Length",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Petal.Width",
+"sType": "scientific" 
+},
+{
+ "sTitle": "Species" 
+} 
+],
+"bScrollInfinite": true,
+"bScrollCollapse": true,
+"sScrollY": "190px" 
+},
+"id": "chart5043fc21e33" 
+}
+  $('#' + chartParamschart5043fc21e33.id).removeClass("rChart")
+
+  $(document).ready(function() {
+		drawDataTable(chartParamschart5043fc21e33)
+	});
+  function drawDataTable(chartParams){
+    var dTable = $('#' + chartParams.dom).dataTable(
+      chartParams.table
+    );
+    //first use rCharts width
+  	$('#'+chartParams.id+"_wrapper").css("width",chartParams.width)  
+		$('#'+chartParams.id+"_wrapper").css("width",chartParams.table.width)
+    
+    //then if specified change to table width
+    $('#'+chartParams.id+"_wrapper").css("margin-left", "auto");
+    $('#'+chartParams.id+"_wrapper").css("margin-right", "auto");
+		dTable.fnAdjustColumnSizing();
+  }
+		
+</script>
+    
+    <script></script>    
+  </body>
+</html>
